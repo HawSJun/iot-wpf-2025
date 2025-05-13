@@ -260,6 +260,9 @@ IoT 개발자 WPF 학습리포지토리 2025
 8. BookGenreViewModel DB 처리 구현
 
 
+https://github.com/user-attachments/assets/08c2dcd8-6783-4b94-a200-683ee123b639
+
+
 ## 4일차
 
 ### DB연결 CRUD 연습 (계속)
