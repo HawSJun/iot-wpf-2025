@@ -1,8 +1,8 @@
 ﻿using System.Windows;
-using WpfBasicApp01.Views;
-using WpfBasicApp01.ViewModels;
+using WpfBookRentalShop01.ViewModels;
+using WpfBookRentalShop01.Views;
 
-namespace WpfBasicApp01
+namespace WpfBookRentalShop01
 {
     /// <summary>
     /// Interaction logic for App.xaml
@@ -11,17 +11,12 @@ namespace WpfBasicApp01
     {
         private void Application_Startup(object sender, StartupEventArgs e)
         {
-            // 뷰모델 생성
             var viewModel = new MainViewModel();
-
-            // 뷰(윈도우) 생성
-            var view = new MainView
-            {
-                // DataContext에 뷰모델 설정
-                DataContext = viewModel
+            var view = new MainView { 
+                DataContext = viewModel 
             };
-
-            // 뷰(윈도우) 열기
+            //var view = new MainView();
+            //view.DataContext = viewModel;
             view.ShowDialog();
         }
     }

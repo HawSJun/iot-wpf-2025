@@ -220,17 +220,16 @@ IoT 개발자 WPF 학습리포지토리 2025
 
     <img src="./image/wpf0008.png" width="600">
 
-
 ### Log 라이브러리
 - 개발한 앱, 솔루션의 현재상태를 계속 모니터링하는 기능
 - Log 사용법
     - 직접코딩방식
     - 로그 라이브러리 사용방식
 - Log 라이브러리
-    - NLog : 가볍고 쉽다. 빠름. 데스크톱
+    - **NLog** : 가볍고 쉽다. 빠름. 데스크톱
     - Serilog : 어려운 편, 빠름. 웹쪽
     - Log4net : Java의 로그를 .NET으로 이전. 느림. 웹쪽
-    - ZLogger : 제일 최신(2021), 초고속. 게임서버
+    - `ZLogger` : 제일 최신(2021), 초고속. 게임서버
 
 ### NLog 라이브러리 사용
 1. NuGet 패키지 > NLog, NLog.Schema 설치
@@ -243,3 +242,49 @@ IoT 개발자 WPF 학습리포지토리 2025
     <img src="./image/wpf0009.png" width="600">
 
 ### DB연결 CRUD 연습
+1. WPF 프로젝트 생성
+2. NuGet 패키지 필요 라이브러리 설치
+    - CommunityToolkit.Mvvm
+    - MahAapps.Metro / MahApps.Metro.IconPacks
+    - MySql.Data
+    - NLog
+3. Models, Views, ViewModels 생성
+4. App.xaml 초기화 작업
+5. MainView.xaml, MainViewModel 메인화면 MVVM 작업
+    - 메뉴작업
+    - ContentControl 추가
+6. 하위 사용자 컨트롤 작업
+    - BookGenre(View, ViewModel)
+    - Books(View, ViewModel)
+7. Models > Genre(DivisionTbl) 모델 작업
+8. BookGenreViewModel DB 처리 구현
+
+
+## 4일차
+
+### DB연결 CRUD 연습 (계속)
+1. BookGenre에서 INSERT, UPDATE 기능 구현
+2. NLog.config
+3. Helpers.Common 클래스 생성
+    - NLog 인스턴스 생성
+    - 공통 DB연결문자열 이동
+    - MahApps.Metro 다이얼로그 코디네이터 생성
+4. 각 ViewModel에 IDialogCoordinator 관련 코딩 추가
+    - ViewModel 생성자에 파라미터 추가
+    - View, ViewModel 연동 시 IDialogCoordinator 연결
+5. View에 Dialog 관련 네임스페이스, 속성 추가
+6. await this.dialogCoordinator.ShowMessageAsync() 사용
+
+    <img src="./image/wpf0011.png" width="650">
+
+7. BookView.xaml 화면작업
+8. MemberView.xaml, RentalView.xaml 화면작업
+9. ViewModel들 작업
+
+#### DB연결 CRUD 연습 시 추기 필요사항
+- [x] 여러번 나오는 로직 메서드화
+- [x] NLog로 각 기능 동작 시 로그 남기기, 공통화 작업
+- [x] 연결 문자열 Common으로 이전
+- [x] 종료 메뉴 다이얼로그 MetriUI로 변경
+- [x] MahApps.Metro 메시지 형태로 변경
+- [ ] 삭제 여부 메시지 박스 추가
