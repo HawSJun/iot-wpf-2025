@@ -282,10 +282,19 @@ https://github.com/user-attachments/assets/74af6476-1469-41ea-ad23-2243ae571878
 8. MemberView.xaml, RentalView.xaml 화면작업
 9. ViewModel들 작업
 
+    <img src="./image/wpf0012.png" width="650">
+
 #### DB연결 CRUD 연습 시 추기 필요사항
 - [x] 여러번 나오는 로직 메서드화
 - [x] NLog로 각 기능 동작 시 로그 남기기, 공통화 작업
 - [x] 연결 문자열 Common으로 이전
 - [x] 종료 메뉴 다이얼로그 MetriUI로 변경
 - [x] MahApps.Metro 메시지 형태로 변경
-- [ ] 삭제 여부 메시지 박스 추가
+- [x] 삭제 여부 메시지 박스 추가
+
+### DB연결 CRUD 실습
+- BooksView, BooksViewModel 작업 실습
+- 1일차 MVVM 내용, 오늘 학습한 것
+
+## 5일차
+- OpenAPI + Youtube API
