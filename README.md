@@ -342,3 +342,15 @@ https://github.com/user-attachments/assets/2d78ee82-59aa-4d42-993f-166f47e642fd
     1. TMDB API 사용 구현
     2. 관련 기능 전부 구현
 7. 데이터그리드 더블클릭해서 상세정보 표시
+    - NuGet 패키지에서 Microsoft.Xaml.Behaviors.Wpf 설치
+8. 텍스트박스에서 엔터 시 이벤트 발생 처리
+9. 텍스트박스 한글 입력 우선 처리
+10. 실행 시 텍스트박스에 포커스 가도록 처리
+
+
+## 6일차
+
+### MovieFinder 2025 (계속)
+1. 상태 표시줄 시계 동작
+2. 상태 표시줄 검색 결과 건수 표시
+3. 즐겨찾기 DB연동...
