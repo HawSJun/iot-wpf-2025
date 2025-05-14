@@ -282,7 +282,10 @@ https://github.com/user-attachments/assets/2d78ee82-59aa-4d42-993f-166f47e642fd
 8. MemberView.xaml, RentalView.xaml 화면작업
 9. ViewModel들 작업
 
+    <img src="./image/wpf0013.png" width="650">
+
     <img src="./image/wpf0012.png" width="650">
+
 
 #### DB연결 CRUD 연습 시 추기 필요사항
 - [x] 여러번 나오는 로직 메서드화
@@ -297,4 +300,45 @@ https://github.com/user-attachments/assets/2d78ee82-59aa-4d42-993f-166f47e642fd
 - 1일차 MVVM 내용, 오늘 학습한 것
 
 ## 5일차
-- OpenAPI + Youtube API
+
+### MovieFinder 2025
+- 전체 UI : UI설계화면 다섯 영역으로 구분
+
+    <img src="./image/wpf0014.png" width="650">
+
+- 영화즐겨찾기앱
+    - TMDB 사이트에서 제공하는 OpenAPI로 데이터 가져오기
+    - 내가 좋아하는 영화 리스트 선택, 즐겨찾기 저장
+    - 저장한 영화만 리스트업
+    - 선택된 영화 더블 클릭 > 영화 상세정보 팝업
+    - 선택된 영화 선택 > 예고편 보기 > 유튜브 동영상 팝업
+
+- API / OpenAPI
+    - Application Programming Interface
+    - 
+
+- TMDB, Youtube
+    - [TMDB](https://www.themoviedb.org/) API 신청
+    - [Youtube Data API](https://console.cloud.google.com/) 신청
+        - 프로젝트 생성 후 API 및 서비스 > 라이브러리
+        - Youtube Data API v3 선택
+        - 사용버튼 클릭
+        - 사용자 인증정보 입력
+
+### 프로젝트 시작
+1. WPF 프로젝트 생성
+2. NuGet 패키지 사용할 라이브러리 설치
+    - CommunityToolkit.Mvvm
+    - MahApps.Metro / MahApps.Metro.IconPacks
+    - MySql.Data
+    - NLog
+3. 폴더 생성 : Helpers, Models, Views, ViewModels
+4. MVVM 구조 초기 작업
+5. UI 구현
+
+    <img src="./image/wpf0015.png" width="650">
+
+6. 로직구현
+    1. TMDB API 사용 구현
+    2. 관련 기능 전부 구현
+7. 데이터그리드 더블클릭해서 상세정보 표시
