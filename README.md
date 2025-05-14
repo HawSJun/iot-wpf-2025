@@ -347,6 +347,7 @@ https://github.com/user-attachments/assets/2d78ee82-59aa-4d42-993f-166f47e642fd
 9. 텍스트박스 한글 입력 우선 처리
 10. 실행 시 텍스트박스에 포커스 가도록 처리
 
+    https://github.com/user-attachments/assets/657c93e5-18c8-4c28-b4a6-e70030197fcb
 
 ## 6일차
 
