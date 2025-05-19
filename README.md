@@ -378,6 +378,9 @@ https://github.com/user-attachments/assets/2d78ee82-59aa-4d42-993f-166f47e642fd
 
 ### 부산광역시 부산맛집 정보 앱
 1. [데이터포털](https://www.data.go.kr/) OpenAPI 신청
+
+    <img src="./image/wpf0020.png" width="650">
+    
 2. WPF 프로젝트 생성
 3. NuGet 패키지 라이브러리 설치
     - CommunityToolkit.Mvvm
