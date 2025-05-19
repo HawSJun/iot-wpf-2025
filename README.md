@@ -385,6 +385,13 @@ https://github.com/user-attachments/assets/2d78ee82-59aa-4d42-993f-166f47e642fd
     - Newtonsoft.Json
     - CefSharp.Wpf.NETCore (플랫폼 x64로 변경!)
     - NLog
-3. CommunityToolkit.Mvvm로 MVVM 초기화
 4. MVVM 초기화
 5. UI 디자인 및 구현
+
+## 8일차
+
+### 부산광역시 부산맛집 정보 앱
+1. 그리드 표현 아이템 조정
+2. 메인창 내용을 구글맵창으로 이동
+3. CefSharp.Wpf로 구글맵지도 표현
+4. 위도(Latitude), 경도(Longitude) 표현
