@@ -117,6 +117,7 @@ namespace BusanRestaurantApp.ViewModels
                     }
 
                     BusanItems = busanItems;
+                    Common.LOGGER.Info("OpenAPI 데이터 로드 완료!");
                 }
             }
             catch (Exception ex)
