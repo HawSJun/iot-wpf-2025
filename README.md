@@ -501,3 +501,5 @@ https://github.com/user-attachments/assets/2d78ee82-59aa-4d42-993f-166f47e642fd
 5. WPF MVVM 전체 구현
 
 6. MqttPub.py와 Publish된 IoT 데이터 WPF에서 Subscribe 예제
+
+    https://github.com/user-attachments/assets/2cb83301-9038-489a-a349-cf19135b780b
