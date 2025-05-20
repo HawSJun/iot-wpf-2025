@@ -10,7 +10,7 @@ from collections import OrderedDict
 import random
 
 PUB_ID = 'IOT63'    # 본인 아이피 마지막 주소
-BROKER = '210.119.12.53'    # 본인 아이피
+BROKER = '210.119.12.63'    # 본인 아이피
 PORT = 1883
 TOPIC ="smarthome/63/topic"  # publish/subscribe에서 사용할 토픽
 COLORS = ['RED', 'ORANGE', 'YELLOW', 'GREEN', 'BLUE', 'NAVY', 'PURPLE']
