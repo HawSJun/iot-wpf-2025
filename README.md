@@ -534,5 +534,8 @@ https://github.com/user-attachments/assets/2d78ee82-59aa-4d42-993f-166f47e642fd
 
     - 스마트홈 조작영상
 
+        https://github.com/user-attachments/assets/b60537ff-6517-41ff-b0ab-e1f01083cfe5
 
-    - 스마트롱 모니터링앱 동작영상
+    - 스마트홈 모니터링앱 동작영상
+ 
+        https://github.com/user-attachments/assets/765b0277-49e6-44b9-8882-981bf7fc5e43
